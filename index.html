@@ -1,50 +1,219 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Boolando</title>
-</head>
-<body>
-    
+  </head>
 
+  <body>
     <!-- Header  -->
 
-    
     <header>
-        <div class="container">
-            <div class="navbar">
-                <ul>
-                    <li><a href="#">Donna</a></li>
-                    <li><a href="#">Uomo</a></li>
-                    <li><a href="#">Bambini</a></li>
-                  </ul>
-                  
+      <div class="container">
+        <div class="navbar">
+          <ul>
+            <li><a href="#">Donna</a></li>
+            <li><a href="#">Uomo</a></li>
+            <li><a href="#">Bambini</a></li>
+          </ul>
 
-                    <img src="./assets/img/boolean-logo.png" class="logo" alt="Boolean Logo">
+          <img
+            src="./assets/img/boolean-logo.png"
+            class="logo"
+            alt="Boolean Logo"
+          />
 
-                <ul>
-                    <li>
-                        <a href="#" class="">
-                            <i class="fa-regular fa-user"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class=""><i class="fa-regular fa-heart"></i></a>
-                    </li>
-                    <li>
-                        <a href="#" class=""><i class="fa-solid fa-bag-shopping"></i></a>
-                    </li>
-                </ul>
-
-            </div>
+          <ul>
+            <li>
+              <a href="#" class="">
+                <i class="fa-regular fa-user"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#" class=""><i class="fa-regular fa-heart"></i></a>
+            </li>
+            <li>
+              <a href="#" class=""><i class="fa-solid fa-bag-shopping"></i></a>
+            </li>
+          </ul>
         </div>
+      </div>
     </header>
 
     <!-- fine header  -->
 
-</body>
+    <!-- main  -->
+
+    <main>
+      <section class="main container1">
+        <div class="card">
+          <div class="card-product">
+            <img
+              src="./assets/img/1.jpg"
+              class="card-img"
+              alt="Zalando Model"
+            />
+            <img
+              src="./assets/img/1b.jpg"
+              class="hover-img"
+              alt="Zalando Model"
+            />
+            <div class="heart-container">
+              <span class="heart">&hearts;</span>
+            </div>
+            <span class="discount">-50%</span>
+            <span class="sostenibilità">Sostenibilità</span>
+          </div>
+          <p>Levi's</p>
+          <h4>Relaxed Fit Tee Unisex</h4>
+          <span class="discounted-price price-1">14,99 &euro;</span>
+        </div>
+
+        <div class="card">
+          <div class="card-product">
+            <img
+              src="./assets/img/2.jpg"
+              class="card-img"
+              alt="Zalando Model"
+            />
+            <img
+              src="./assets/img/2b.jpg"
+              class="hover-img"
+              alt="Zalando Model"
+            />
+            <div class="heart-container">
+              <span class="heart">&hearts;</span>
+            </div>
+            <span class="discount">-30%</span>
+          </div>
+          <p>Guess</p>
+          <h4>Roses Tee</h4>
+          <span class="discounted-price price-2">20,99 &euro;</span>
+        </div>
+
+        <div class="card">
+          <div class="card-product">
+            <img
+              src="./assets/img/3.jpg"
+              class="card-img"
+              alt="Zalando Model"
+            />
+            <img
+              src="./assets/img/3b.jpg"
+              class="hover-img"
+              alt="Zalando Model"
+            />
+            <div class="heart-container">
+              <span class="heart">&hearts;</span>
+            </div>
+            <span class="discount">-30%</span>
+          </div>
+          <p>Come zucchero Filato</p>
+          <h4>Voglia Di Colori Pastello</h4>
+          <span class="discounted-price price-3">129,99 &euro;</span>
+        </div>
+      </section>
+
+      <section class="main container1">
+        <div class="card">
+          <div class="card-product">
+            <img
+              src="./assets/img/4.jpg"
+              class="card-img"
+              alt="Zalando Model"
+            />
+            <img
+              src="./assets/img/4b.jpg"
+              class="hover-img"
+              alt="Zalando Model"
+            />
+            <div class="heart-container">
+              <span class="heart">&hearts;</span>
+            </div>
+            <span class="discount">-50%</span>
+            <span id="sostbott" class="sostenibilità">Sostenibilità</span>
+          </div>
+          <p>Levi's</p>
+          <h4>Tee Unisex</h4>
+          <span class="discounted-price price-4">14,99 &euro;</span>
+        </div>
+
+        <div class="card">
+          <div class="card-product">
+            <img
+              src="./assets/img/5.jpg"
+              class="card-img"
+              alt="Zalando Model"
+            />
+            <img
+              src="./assets/img/5b.jpg"
+              class="hover-img"
+              alt="Zalando Model"
+            />
+            <div class="heart-container">
+              <span class="heart">&hearts;</span>
+            </div>
+          </div>
+          <p>Maya Deluxe</p>
+          <h4>Stripe Bodice</h4>
+          <span class="discounted-price price-5">99,99 &euro;</span>
+        </div>
+
+        <div class="card">
+          <div class="card-product">
+            <img
+              src="./assets/img/6.jpg"
+              class="card-img"
+              alt="Zalando Model"
+            />
+            <img
+              src="./assets/img/6b.jpg"
+              class="hover-img"
+              alt="Zalando Model"
+            />
+            <div class="heart-container">
+              <span class="heart">&hearts;</span>
+            </div>
+            <span id="sostbott" class="sostenibilità">Sostenibilità</span>
+          </div>
+          <p>Esprit</p>
+          <h4>Maglione - Black</h4>
+          <span class="discounted-price price-6">29,99 &euro;</span>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="navbar footer-navbar">
+          <div class="info">
+            <h5>Boolando s.r.l.</h5>
+            <ul>
+              <li><a href="#">Informazioni Legali</a></li>
+              <li><a href="#">Informazioni Sulla Privacy</a></li>
+              <li><a href="#">Diritti Di Recesso</a></li>
+            </ul>
+          </div>
+          <div class="social">
+            <p>Trovaci anche su</p>
+            <i class="fa-brands fa-square-twitter"></i>
+            <i class="fa-brands fa-square-facebook"></i>
+            <i class="fa-brands fa-square-instagram"></i>
+            <i class="fa-brands fa-square-pinterest"></i>
+            <i class="fa-brands fa-square-youtube"></i>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
